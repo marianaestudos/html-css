@@ -51,7 +51,7 @@ main p {
     line-height: 2em;
     font-family: var(--fonte-diferente2);
     padding: 80px 0px 80px 30px;
-    width: 480px;
+    max-width: 480px;
     font-size: 34px;
 }
 
@@ -74,7 +74,7 @@ div#conteiner {
     background-color: rgba(0, 0, 0, 0.541);
     padding: 0px;
     margin: 0px;
-    width: 408px;
+    max-width: 408px;
 }
 
 div#conteiner2 {
@@ -92,7 +92,7 @@ div#conteiner2 {
     background-color: rgba(0, 0, 0, 0.541);
     padding: 0px;
     margin: 0px;
-    width: 408px;
+    max-width: 408px;
 }
 
 footer {
