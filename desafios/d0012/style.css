@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --fonte-diferente: 'Passion One', cursive;
+    --fonte-diferente2: 'Sriracha', cursive;
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: var(--fonte-padrao);
+}
+
+header {
+    padding: 50px;
+    background-color: black;
+}
+
+header h1 {
+    font-family: var(--fonte-diferente);
+    color: white;
+    font-size: 90px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+header > p > span > a {
+    font-family: var(--fonte-diferente);
+    color: white;
+    text-decoration: none;
+}
+
+header > p > span:hover {
+    text-decoration: underline;
+}
+
+main p {
+    background-attachment: scroll;
+    line-height: 2em;
+    font-family: var(--fonte-diferente2);
+    padding: 80px 0px 80px 30px;
+    width: 480px;
+    font-size: 34px;
+}
+
+div.ctn {
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.623);
+} 
+
+div#conteiner {
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 60vh;
+    padding: 80px 0px 0px 30px;
+}
+
+#conteudo p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.541);
+    padding: 0px;
+    margin: 0px;
+    width: 408px;
+}
+
+div#conteiner2 {
+    background-image: url('imagens/background002.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 60vh;
+    padding: 80px 0px 0px 30px;
+}
+
+#conteudo2 p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.541);
+    padding: 0px;
+    margin: 0px;
+    width: 408px;
+}
+
+footer {
+    background-color: black;
+    padding: 15px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+footer > p > span > a {
+    font-family: var(--fonte-diferente);
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+}
+
+footer > p > span > a:hover {
+    text-decoration: underline;
+}
+
