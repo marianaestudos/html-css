@@ -74,7 +74,7 @@ div#conteiner {
     background-color: rgba(0, 0, 0, 0.541);
     padding: 0px;
     margin: 0px;
-    max-width: 408px;
+    width: 408px;
 }
 
 div#conteiner2 {
@@ -92,7 +92,7 @@ div#conteiner2 {
     background-color: rgba(0, 0, 0, 0.541);
     padding: 0px;
     margin: 0px;
-    max-width: 408px;
+    width: 408px;
 }
 
 footer {
