@@ -13,6 +13,12 @@
     --fonte-padrao: Arial, Helvetica, sans-serif;
 }
 
+/* html, body {
+    min-height: 100vh
+    background-color: darkgray
+}
+*/
+
 body {
     font-family: var(--fonte-padrao);
 }
@@ -29,12 +35,21 @@ header h1 {
     text-align: center;
     margin-bottom: 10px;
 }
+/* font-size: 10vw */
+
+/* text-transform: uppercase; ou font-variant: small-caps;*/
 
 header p {
     color: white;
     font-size: 20px;
     text-align: center;
 }
+
+/* a {
+    configurações...
+}*/
+/* header a, footer a*/
+/* header a:hover, footer a:hover */
 
 header > p > span > a {
     font-family: var(--fonte-diferente);
@@ -46,6 +61,11 @@ header > p > span:hover {
     text-decoration: underline;
 }
 
+/* section {
+    padding-bottom-top: 10vh;
+    padding-left: 30px;
+}*/
+
 main p {
     background-attachment: scroll;
     line-height: 2em;
@@ -54,6 +74,13 @@ main p {
     max-width: 480px;
     font-size: 34px;
 }
+
+/* section {font-size: 4.5vw*}/
+
+/* section.imagem > p {
+    background-color: black-transparent;
+    display: inline-block
+}*/
 
 div.ctn {
     box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.623);
