@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -24,6 +25,12 @@
             font-weight: bold;
             padding: 10px;
             background-color: lightgray;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: black;
         }
 
         thead, tfoot {
